@@ -1,0 +1,78 @@
+{
+  "accuracy": 0.9687924016282226,
+  "confusion_matrix": [
+    [
+      1203,
+      28
+    ],
+    [
+      41,
+      939
+    ]
+  ],
+  "classification_report": {
+    "Legitimate": {
+      "precision": 0.9670418006430869,
+      "recall": 0.9772542648253453,
+      "f1-score": 0.9721212121212122,
+      "support": 1231.0
+    },
+    "Phishing": {
+      "precision": 0.9710444674250258,
+      "recall": 0.9581632653061225,
+      "f1-score": 0.9645608628659477,
+      "support": 980.0
+    },
+    "accuracy": 0.9687924016282226,
+    "macro avg": {
+      "precision": 0.9690431340340564,
+      "recall": 0.9677087650657339,
+      "f1-score": 0.9683410374935799,
+      "support": 2211.0
+    },
+    "weighted avg": {
+      "precision": 0.9688159360778675,
+      "recall": 0.9687924016282226,
+      "f1-score": 0.9687701753640168,
+      "support": 2211.0
+    }
+  },
+  "target_mapping": {
+    "0": "legitimate",
+    "1": "phishing"
+  },
+  "feature_names": [
+    "having_IP_Address",
+    "URL_Length",
+    "Shortining_Service",
+    "having_At_Symbol",
+    "double_slash_redirecting",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "SSLfinal_State",
+    "Domain_registeration_length",
+    "Favicon",
+    "port",
+    "HTTPS_token",
+    "Request_URL",
+    "URL_of_Anchor",
+    "Links_in_tags",
+    "SFH",
+    "Submitting_to_email",
+    "Abnormal_URL",
+    "Redirect",
+    "on_mouseover",
+    "RightClick",
+    "popUpWidnow",
+    "Iframe",
+    "age_of_domain",
+    "DNSRecord",
+    "web_traffic",
+    "Page_Rank",
+    "Google_Index",
+    "Links_pointing_to_page",
+    "Statistical_report"
+  ],
+  "test_size": 0.2,
+  "random_state": 42
+}

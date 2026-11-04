@@ -1,0 +1,11 @@
+{
+  "name": "qr-shield",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix qr-shield-starter/frontend run dev",
+    "dev:full": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\run-qrshield.ps1",
+    "setup:saathi": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\setup-saathi.ps1",
+    "build": "npm --prefix qr-shield-starter/frontend run build",
+    "test:backend": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Set-Location qr-shield-starter\\backend; .\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v\""
+  }
+}

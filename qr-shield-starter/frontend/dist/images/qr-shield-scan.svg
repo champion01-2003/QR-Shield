@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">QR Shield safe scanning illustration</title>
+  <desc id="desc">A phone scans a QR code and displays a destination review card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09283a"/>
+      <stop offset="1" stop-color="#10162a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20d8c1"/>
+      <stop offset="1" stop-color="#37a9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="560" rx="32" fill="url(#bg)"/>
+  <circle cx="820" cy="120" r="175" fill="#27d7c3" opacity=".08"/>
+  <circle cx="175" cy="460" r="190" fill="#3b82f6" opacity=".08"/>
+  <path d="M0 405c160-62 242 52 395-9s228-96 363-38 173 71 242 34v168H0Z" fill="#051321" opacity=".55"/>
+  <g fill="none" stroke="#79dfd4" opacity=".16">
+    <circle cx="520" cy="270" r="202"/>
+    <circle cx="520" cy="270" r="168" stroke-dasharray="7 12"/>
+  </g>
+  <g filter="url(#shadow)" transform="translate(164 95)">
+    <rect x="0" y="0" width="282" height="376" rx="38" fill="#07111d" stroke="#557184" stroke-width="3"/>
+    <rect x="13" y="14" width="256" height="348" rx="28" fill="#102033"/>
+    <rect x="108" y="25" width="66" height="7" rx="4" fill="#385268"/>
+    <text x="37" y="75" fill="#d9e8f4" font-family="Arial,sans-serif" font-size="18" font-weight="700">QR destination</text>
+    <rect x="47" y="107" width="188" height="188" rx="14" fill="#f2fbfa"/>
+    <g fill="#143b42">
+      <path d="M62 122h54v54H62zm10 10v34h34v-34zm5 5h24v24H77zm63-15h54v54h-54zm10 10v34h34v-34zm5 5h24v24h-24zM62 202h54v54H62zm10 10v34h34v-34zm5 5h24v24H77z"/>
+      <path d="M129 184h17v17h-17zm25 0h17v17h-17zm25 0h17v17h-17zm-42 25h17v17h-17zm25 0h17v17h-17zm25 0h17v17h-17zm-33 25h17v17h-17zm25 0h17v17h-17zm25 0h17v17h-17zm-50 25h17v17h-17zm25 0h17v17h-17zm25 0h17v17h-17z"/>
+    </g>
+    <path d="M43 188h36m-36 0v36m193-36h-36m36 0v36M43 270h36m-36 0v-36m193 36h-36m36 0v-36" fill="none" stroke="url(#glow)" stroke-linecap="round" stroke-width="5"/>
+    <rect x="50" y="311" width="182" height="31" rx="15" fill="#183c44"/>
+    <circle cx="68" cy="326" r="5" fill="#42e6bf"/>
+    <text x="82" y="330" fill="#a9e7dc" font-family="Arial,sans-serif" font-size="12" font-weight="700">INSPECT BEFORE OPENING</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(512 194)">
+    <rect width="330" height="170" rx="20" fill="#111f30" stroke="#315267" stroke-width="2"/>
+    <rect x="22" y="22" width="38" height="38" rx="12" fill="#123b40"/>
+    <path d="M41 30 53 35v8c0 9-6 14-12 18-7-4-13-9-13-18v-8z" fill="none" stroke="#55e2c6" stroke-width="2.5"/>
+    <path d="m35 43 4 4 8-9" fill="none" stroke="#55e2c6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <text x="75" y="38" fill="#e4f0f7" font-family="Arial,sans-serif" font-size="16" font-weight="700">Destination preview</text>
+    <text x="75" y="58" fill="#8fa8b9" font-family="Arial,sans-serif" font-size="12">Review the address before visiting</text>
+    <rect x="23" y="79" width="284" height="40" rx="9" fill="#0a1522" stroke="#253a4c"/>
+    <text x="37" y="104" fill="#87d9d0" font-family="Arial,sans-serif" font-size="13">example.org / payment</text>
+    <rect x="23" y="133" width="9" height="9" rx="5" fill="#44dfb9"/>
+    <text x="41" y="142" fill="#b6c8d5" font-family="Arial,sans-serif" font-size="11">No automatic link opening</text>
+  </g>
+  <g transform="translate(574 406)">
+    <rect width="210" height="48" rx="16" fill="#14353b" stroke="#2d706c"/>
+    <circle cx="26" cy="24" r="6" fill="#46e3bd"/>
+    <text x="44" y="29" fill="#d0f4eb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Pause. Check. Then decide.</text>
+  </g>
+</svg>
